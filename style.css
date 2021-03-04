@@ -1,0 +1,367 @@
+@import url('http://fonts.cdnfonts.com/css/matroska');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Mobitel */
+* {
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+body {
+    background-color: #060507;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    margin-bottom: 90px; /* 46px zbog logo-cricle + 44px radi razmaka između containera */
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 34px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.nav-item {
+    display: none;
+}
+
+.header-banner {
+    position: relative;
+    z-index: -5;
+}
+
+#img-1 {
+    width: 100%;
+    height: auto;
+}
+
+#img-container-1 {
+    width: 100%;
+    position: absolute;
+    bottom: -44px;
+}
+
+#logo-circle {
+    margin: 0 auto;
+    display: block;
+}
+
+#gold {
+    display: none;
+}
+
+.content-1 {
+    position: relative;
+    margin: 0 62px 44px;
+}
+
+.subtitle {
+    font-family: 'Matroska', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+#img-2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+#japanese-letters {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    bottom: -28px;
+}
+
+.content-2 {
+    position: relative;
+    margin: 0 62px 32px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    margin-bottom: 32px;
+    background-color: #060507;
+}
+
+.stat {
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+
+.stat-name {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #3F3E44;
+}
+
+.stat-info {
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stat-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.stat-2 {
+    font-family: 'Matroska', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.main-banner {
+    margin-bottom: 62px;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.slider-num {
+    font-family: 'Matroska', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#white-line {
+    width: 216px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+#orange-line {
+    width: 134px;
+    height: 2px;
+    background-color: #A75B12;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    border-radius: 32px 0;
+    height: 72px;
+    outline: none;
+}
+
+#favorite {
+    width: 72px;
+    border: 1px solid;
+    background-color: inherit;
+    margin-right: 32px;
+}
+
+#add-to-cart {
+    width: 280px;
+    border: none;
+    font-family: 'Matroska', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(96.17deg, #A45410 0%, #FBEFB7 100%);
+    color: #060507;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+}
+
+#img-3 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.main-img {
+    display: none;
+}
+
+#japanese-letters-full {
+    display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+    .header {
+        width: 68%;
+        margin: 0;
+    }
+    .navbar {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 34px 3.78% 34px 64px;
+        margin: 0;
+    }
+    .nav-item {
+        display: inline;
+        margin: 0 3.04%;
+        font-family: 'Matroska';
+        font-size: 0.7vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+
+    }
+    .logo {
+        margin: 0 5.74% 0 0;
+    }
+    .header-banner {
+        display: none;
+    }
+    #gold {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 32%;
+        z-index: -10;
+    }
+    .content-2 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin: 0;
+    }
+    .stats {
+        position: relative;
+        width: 353px;
+        flex-direction: column;
+        order: 2;
+        padding: 40px;
+        margin: 0;
+        overflow: hidden;
+        z-index: 2;
+    }
+    .stat {
+        margin: 24px 0;
+    }
+    .main-img {
+        display: block;
+        width: 100%;
+    }
+    .main-banner {
+        position: relative;
+        width: 80%;
+        order: 1;
+        display: grid;
+        grid-template: auto auto / 74.3% 22.75%;
+        grid-column-gap: 2.95%;
+        margin: 0;
+    }
+    .info {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 3.26% 0 5.96%;
+        background-color: #060507;
+        z-index: 2;
+    }
+    .slider {
+        width: 41.93%;
+    }
+    #white-line {
+        width: 50%;
+    }
+    #orange-line {
+        width: 61.94%;
+    }
+    .info .text {
+        width: 37.83%;
+    }
+    #japanese-letters-full {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 60%;
+        left: -12px;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .content-1, .banner, .buttons, .footer {
+        display: none;
+    }
+}
